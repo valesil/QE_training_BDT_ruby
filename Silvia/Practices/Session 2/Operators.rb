@@ -18,3 +18,5 @@ edad_alicia = edad_claudia
 edad_lorena = 16
 puts "Claudia tiene la misma edad que Alicia? #{edad_claudia.equal?edad_alicia}" #return true
 puts "Claudia tiene la misma edad que Lorena? #{edad_claudia.equal?edad_lorena}" #return true
+
+puts local_variables	#will print the list of all variables
