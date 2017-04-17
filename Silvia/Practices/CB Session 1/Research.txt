@@ -1,0 +1,9 @@
+Research :
+When and why BDD was defined
+The most important aspects of BDD
+Why is useful and when could be applied.
+Which type of teams could implement BDD
+Structure of a feature – Give an example
+Structure of a user story – Give an example
+Structure of a scenario – Give an example
+Differences between BDD and BDT
