@@ -1,8 +1,19 @@
-Research :
-When and why BDD was defined
-The most important aspects of BDD
-Why is useful and when could be applied.
-Which type of teams could implement BDD
+1. When and why BDD was defined
+
+2. The most important aspects of BDD
+* It is an approach that allow to specify the tests in terms of the expected behavior for the features o user stories
+* The tests become an executable documentation of the features
+* All the people involved in the development process should be involved, using a unique language (bussiness oriented rather than technical)
+	- PO -> Acceptance criteria
+	- Developers -> Implement the user story to pass the scenarios to satisfy the acceptance criteria
+	- Testers -> Validates the feature satisfies the expected behavior
+
+3. Why is useful and when could be applied.
+* It is especially useful when the application business is complex
+
+
+4. Which type of teams could implement BDD
+
 Structure of a feature – Give an example
 Structure of a user story – Give an example
 Structure of a scenario – Give an example
