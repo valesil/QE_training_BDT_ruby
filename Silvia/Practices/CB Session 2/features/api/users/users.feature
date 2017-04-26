@@ -15,3 +15,10 @@ When I send a POST request to /user.json with json
 	}
 """
 Then I expect HTTP code 200
+And I expect JSON equal to
+      """
+      {
+       "ErrorMessage": "Invalid Email Address",
+       "ErrorCode": 3077
+      }
+      """ 

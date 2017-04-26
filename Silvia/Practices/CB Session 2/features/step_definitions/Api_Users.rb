@@ -18,3 +18,7 @@ end
 Then /^I expect HTTP code (\d+)$/ do |http_code|
   expect(@http_response.code).to eql(http_code)
 end
+
+Then /^I expect JSON equal to$/ do |json_text|
+  expect(@last_json).to be_json_eql json_text
+end
